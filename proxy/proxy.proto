@@ -1,0 +1,12 @@
+syntax = "proto3";
+package proxy;
+
+message Request {
+	string uid = 1;
+	string host = 2;
+}
+
+message Response {
+	string uid = 1;
+	bool status = 2;
+}
